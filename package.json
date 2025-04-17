@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/leith-common-mongodb-connector",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": false,
   "description": "A Leith package containing a common mongodb connector",
   "keywords": [
