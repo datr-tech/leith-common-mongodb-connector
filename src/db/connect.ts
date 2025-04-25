@@ -6,9 +6,7 @@ export const connect = async ({ host, name, pass, port, user }) => {
 
   try {
     if (pass && user) {
-      await mongoose.connect(
-        `mongodb://${user}:${pass}@${host}:${port}/${name}`,
-      );
+      await mongoose.connect(`mongodb://${user}:${pass}@${host}:${port}/${name}`);
     } else {
       await mongoose.connect(`mongodb://${host}:${port}/${name}`);
     }
